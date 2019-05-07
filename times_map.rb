@@ -1,3 +1,1 @@
-9.times.map do |i|
-  i.to_s
-end
+9.times.map(&:to_s)
